@@ -12,9 +12,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-          <Navbar/>
+         
           <Routes>
-            <Route path="/portfolio-pda" element = {<About/>}/>
+            <Route path="/" element = {<Navbar/>}/>
+            <Route path="/portfolio-pda/about" element = {<About/>}/>
             <Route path = "/portfolio-pda/project" element= {<Project/>}/>
             <Route path = "/portfolio-pda/skill" element= {<Skill/>}/>
             <Route path = "/portfolio-pda/contact" element= {<Contact/>}/>
