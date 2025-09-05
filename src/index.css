@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+  background-color: #1e1e1e; /* dark background */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Comic Sans MS", cursive, sans-serif; /* playful font */
+  margin: 0;
+  letter-spacing: 3px; /* space between letters of SOWMIYA */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem; /* bigger spacing between menu items */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #ffffff; /* white text */
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* icon spacing */
+  letter-spacing: 1px; /* spacing between letters */
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #38bdf8; /* light blue hover */
+}
+
+nav ul li a svg {
+  font-size: 1.2rem; /* adjust icon size */
 }
