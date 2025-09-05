@@ -14,10 +14,10 @@ function App() {
       <Router>
           <Navbar/>
           <Routes>
-            <Route index element = {<About/>}/>
-            <Route path = "/project" element= {<Project/>}/>
-            <Route path = "/skill" element= {<Skill/>}/>
-            <Route path = "/contact" element= {<Contact/>}/>
+            <Route path="/portfolio-pda" element = {<About/>}/>
+            <Route path = "/portfolio-pda/project" element= {<Project/>}/>
+            <Route path = "/portfolio-pda/skill" element= {<Skill/>}/>
+            <Route path = "/portfolio-pda/contact" element= {<Contact/>}/>
           </Routes>
       </Router>
       <Footer/>
