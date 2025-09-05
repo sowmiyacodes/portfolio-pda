@@ -10,7 +10,7 @@ export default function navbar()
             <ul className="flex space-x-6">
                     <li><Link to="/" className="hover:text-yellow-400">About</Link></li>
                     <li><Link to="/project" className="hover:text-yellow-400">projects</Link></li>
-                    <li><Link to="/skills" className="hover:text-yellow-400">Skills</Link></li>
+                    <li><Link to="/skill" className="hover:text-yellow-400">Skills</Link></li>
                     <li><Link to="/contacts" className="hover:text-yellow-400">Contact</Link></li>
             </ul>
             </nav>

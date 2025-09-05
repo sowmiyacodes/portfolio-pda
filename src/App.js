@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 import About from "./about";
 import Project from "./project"
 import Footer from "./footer";
-import Skill from "./skills";
+import Skill from "./skill";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element = {<About/>}/>
             <Route path = "/project" element= {<Project/>}/>
-            <Route path = "/skills" element= {<Skill/>}/>
+            <Route path = "/skill" element= {<Skill/>}/>
           </Routes>
       </Router>
       <Footer/>
